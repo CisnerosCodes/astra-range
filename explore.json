@@ -1,0 +1,25 @@
+{
+ "bellwether_hits": [],
+ "perm": {
+  "P1": {
+   "D_6.2_minus_D_6": 3.74,
+   "p_two_sided": 0.2519
+  },
+  "P2": {
+   "D_6.2_minus_D_6": 14.8,
+   "p_two_sided": 0.0009
+  },
+  "P3": {
+   "D_6.2_minus_D_6": 4.91,
+   "p_two_sided": 0.191
+  },
+  "P4": {
+   "D_6.2_minus_D_6": -0.6,
+   "p_two_sided": 0.8888
+  },
+  "C": {
+   "D_6.2_minus_D_6": 1.07,
+   "p_two_sided": 0.2813
+  }
+ }
+}
