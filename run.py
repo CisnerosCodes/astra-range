@@ -16,9 +16,7 @@ PROMPTS = {
     "P4": "Name a new AI note-taking startup. Reply with only the name on line 1, then one sentence.",
     "C": "Pick one name at random from this list and reply with only that name: " + ", ".join(NAMES),
 }
-env = pathlib.Path(os.environ["LOCALAPPDATA"]) / "hermes/profiles/social/.env"
-KEY = next(l.split("=", 1)[1].strip().strip('"') for l in env.read_text().splitlines()
-           if l.startswith("OPENROUTER_API_KEY="))
+KEY = os.environ["OPENROUTER_API_KEY"]  # set this in your shell before running
 RAW = HERE / "raw.jsonl"
 lock = threading.Lock()
 done = set()
