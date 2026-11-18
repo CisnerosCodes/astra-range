@@ -1,0 +1,702 @@
+{
+ "cells": {
+  "astra-6 api|C": {
+   "n": 30,
+   "distinct": 3,
+   "D": 1.97,
+   "top": [
+    [
+     "nadia",
+     22
+    ],
+    [
+     "quinn",
+     7
+    ],
+    [
+     "kira",
+     1
+    ]
+   ],
+   "top1_share": 0.733
+  },
+  "astra-6 api|P1": {
+   "n": 30,
+   "distinct": 10,
+   "D": 5.71,
+   "top": [
+    [
+     "clockwork embassy",
+     12
+    ],
+    [
+     "midnight embassy",
+     8
+    ],
+    [
+     "midnight observatory",
+     3
+    ]
+   ],
+   "top1_share": 0.4
+  },
+  "astra-6 api|P2": {
+   "n": 30,
+   "distinct": 12,
+   "D": 4.65,
+   "top": [
+    [
+     "eleanor beatrice vale",
+     19
+    ],
+    [
+     "detective eleanor beatrice vale",
+     1
+    ],
+    [
+     "detective beatrice ashcombe",
+     1
+    ]
+   ],
+   "top1_share": 0.633
+  },
+  "astra-6 api|P3": {
+   "n": 30,
+   "distinct": 10,
+   "D": 5.93,
+   "top": [
+    [
+     "ninth lantern",
+     12
+    ],
+    [
+     "mourning engine",
+     6
+    ],
+    [
+     "widow’s lantern",
+     5
+    ]
+   ],
+   "top1_share": 0.4
+  },
+  "astra-6 api|P4": {
+   "n": 30,
+   "distinct": 16,
+   "D": 12.61,
+   "top": [
+    [
+     "jotloom",
+     6
+    ],
+    [
+     "threadnote",
+     4
+    ],
+    [
+     "noteloom",
+     4
+    ]
+   ],
+   "top1_share": 0.2
+  },
+  "astra-6.2 api|C": {
+   "n": 30,
+   "distinct": 7,
+   "D": 3.05,
+   "top": [
+    [
+     "nadia",
+     21
+    ],
+    [
+     "hugo",
+     3
+    ],
+    [
+     "iris",
+     2
+    ]
+   ],
+   "top1_share": 0.7
+  },
+  "astra-6.2 api|P1": {
+   "n": 30,
+   "distinct": 14,
+   "D": 9.46,
+   "top": [
+    [
+     "clockwork embassy",
+     10
+    ],
+    [
+     "clockwork conservatory",
+     4
+    ],
+    [
+     "clockwork opera",
+     3
+    ]
+   ],
+   "top1_share": 0.333
+  },
+  "astra-6.2 api|P2": {
+   "n": 30,
+   "distinct": 22,
+   "D": 19.45,
+   "top": [
+    [
+     "beatrice eleanor vale",
+     4
+    ],
+    [
+     "beatrice vale",
+     3
+    ],
+    [
+     "beatrice ada wren",
+     2
+    ]
+   ],
+   "top1_share": 0.133
+  },
+  "astra-6.2 api|P3": {
+   "n": 30,
+   "distinct": 17,
+   "D": 10.84,
+   "top": [
+    [
+     "borrowed hour",
+     11
+    ],
+    [
+     "spare moon",
+     2
+    ],
+    [
+     "morrowglass station",
+     2
+    ]
+   ],
+   "top1_share": 0.367
+  },
+  "astra-6.2 api|P4": {
+   "n": 30,
+   "distinct": 17,
+   "D": 12.01,
+   "top": [
+    [
+     "jotloom",
+     8
+    ],
+    [
+     "notefinch",
+     5
+    ],
+    [
+     "jotweave",
+     2
+    ]
+   ],
+   "top1_share": 0.267
+  },
+  "fable-5.2 harness|C": {
+   "n": 30,
+   "distinct": 12,
+   "D": 9.39,
+   "top": [
+    [
+     "hugo",
+     8
+    ],
+    [
+     "jonah",
+     4
+    ],
+    [
+     "kira",
+     3
+    ]
+   ],
+   "top1_share": 0.267
+  },
+  "fable-5.2 harness|P1": {
+   "n": 30,
+   "distinct": 9,
+   "D": 5.64,
+   "top": [
+    [
+     "vienna, 1961",
+     13
+    ],
+    [
+     "orient express, 1936",
+     6
+    ],
+    [
+     "lisbon, 1943",
+     3
+    ]
+   ],
+   "top1_share": 0.433
+  },
+  "fable-5.2 harness|P2": {
+   "n": 30,
+   "distinct": 9,
+   "D": 4.56,
+   "top": [
+    [
+     "inspector leopold ashcombe",
+     16
+    ],
+    [
+     "inspector leopold ashworth",
+     6
+    ],
+    [
+     "inspector edmund hargreave",
+     2
+    ]
+   ],
+   "top1_share": 0.533
+  },
+  "fable-5.2 harness|P3": {
+   "n": 30,
+   "distinct": 6,
+   "D": 4.61,
+   "top": [
+    [
+     "lanternfall station",
+     12
+    ],
+    [
+     "lantern's rest",
+     7
+    ],
+    [
+     "lantern's reach",
+     5
+    ]
+   ],
+   "top1_share": 0.4
+  },
+  "fable-5.2 harness|P4": {
+   "n": 30,
+   "distinct": 1,
+   "D": 1.0,
+   "top": [
+    [
+     "marginalia",
+     30
+    ]
+   ],
+   "top1_share": 1.0
+  },
+  "fable-5.2 stripped|C": {
+   "n": 30,
+   "distinct": 5,
+   "D": 3.44,
+   "top": [
+    [
+     "quinn",
+     17
+    ],
+    [
+     "nadia",
+     6
+    ],
+    [
+     "rosa",
+     3
+    ]
+   ],
+   "top1_share": 0.567
+  },
+  "fable-5.2 stripped|P1": {
+   "n": 30,
+   "distinct": 6,
+   "D": 2.91,
+   "top": [
+    [
+     "orient express, 1936",
+     21
+    ],
+    [
+     "orient express, 1937",
+     3
+    ],
+    [
+     "orient express, 1934",
+     2
+    ]
+   ],
+   "top1_share": 0.7
+  },
+  "fable-5.2 stripped|P2": {
+   "n": 30,
+   "distinct": 16,
+   "D": 12.7,
+   "top": [
+    [
+     "inspector edmund hawthorne",
+     5
+    ],
+    [
+     "inspector honoria blackwood",
+     5
+    ],
+    [
+     "inspector harriet penhallow",
+     4
+    ]
+   ],
+   "top1_share": 0.167
+  },
+  "fable-5.2 stripped|P3": {
+   "n": 30,
+   "distinct": 7,
+   "D": 4.41,
+   "top": [
+    [
+     "lantern's rest",
+     14
+    ],
+    [
+     "lanternfall station",
+     7
+    ],
+    [
+     "lantern's reach",
+     4
+    ]
+   ],
+   "top1_share": 0.467
+  },
+  "fable-5.2 stripped|P4": {
+   "n": 30,
+   "distinct": 8,
+   "D": 5.28,
+   "top": [
+    [
+     "quillmind",
+     10
+    ],
+    [
+     "marginalia",
+     10
+    ],
+    [
+     "jotwise",
+     3
+    ]
+   ],
+   "top1_share": 0.333
+  },
+  "opus-5.5 harness|C": {
+   "n": 30,
+   "distinct": 5,
+   "D": 2.73,
+   "top": [
+    [
+     "wren",
+     21
+    ],
+    [
+     "priya",
+     3
+    ],
+    [
+     "nadia",
+     3
+    ]
+   ],
+   "top1_share": 0.7
+  },
+  "opus-5.5 harness|P1": {
+   "n": 30,
+   "distinct": 18,
+   "D": 14.74,
+   "top": [
+    [
+     "clockwork embassy of vellmar",
+     4
+    ],
+    [
+     "clockwork embassy",
+     4
+    ],
+    [
+     "clockwork venice",
+     4
+    ]
+   ],
+   "top1_share": 0.133
+  },
+  "opus-5.5 harness|P2": {
+   "n": 30,
+   "distinct": 27,
+   "D": 25.66,
+   "top": [
+    [
+     "inspector marguerite ashdown-vale",
+     3
+    ],
+    [
+     "inspector margaret ashcombe-vale",
+     2
+    ],
+    [
+     "inspector marguerite okonkwo-hale",
+     1
+    ]
+   ],
+   "top1_share": 0.1
+  },
+  "opus-5.5 harness|P3": {
+   "n": 30,
+   "distinct": 18,
+   "D": 12.12,
+   "top": [
+    [
+     "tessellate reach",
+     10
+    ],
+    [
+     "tessaly reach",
+     2
+    ],
+    [
+     "tessaract vigil",
+     2
+    ]
+   ],
+   "top1_share": 0.333
+  },
+  "opus-5.5 harness|P4": {
+   "n": 30,
+   "distinct": 11,
+   "D": 6.29,
+   "top": [
+    [
+     "marginalia",
+     13
+    ],
+    [
+     "margin",
+     6
+    ],
+    [
+     "tidemark",
+     2
+    ]
+   ],
+   "top1_share": 0.433
+  },
+  "opus-5.5 stripped|C": {
+   "n": 30,
+   "distinct": 3,
+   "D": 1.34,
+   "top": [
+    [
+     "nadia",
+     28
+    ],
+    [
+     "priya",
+     1
+    ],
+    [
+     "wren",
+     1
+    ]
+   ],
+   "top1_share": 0.933
+  },
+  "opus-5.5 stripped|P1": {
+   "n": 30,
+   "distinct": 13,
+   "D": 7.66,
+   "top": [
+    [
+     "clockwork vienna, 1913",
+     9
+    ],
+    [
+     "clockwork embassy of vienna, 1913",
+     9
+    ],
+    [
+     "vienna, 1961",
+     2
+    ]
+   ],
+   "top1_share": 0.3
+  },
+  "opus-5.5 stripped|P2": {
+   "n": 30,
+   "distinct": 15,
+   "D": 10.53,
+   "top": [
+    [
+     "inspector cornelius ashworth-vane",
+     7
+    ],
+    [
+     "inspector cornelius ashworth-blake",
+     7
+    ],
+    [
+     "inspector bartholomew ashcroft-vane",
+     2
+    ]
+   ],
+   "top1_share": 0.233
+  },
+  "opus-5.5 stripped|P3": {
+   "n": 30,
+   "distinct": 7,
+   "D": 2.59,
+   "top": [
+    [
+     "meridian hollow",
+     23
+    ],
+    [
+     "meridian thresh",
+     2
+    ],
+    [
+     "halcyon verge",
+     1
+    ]
+   ],
+   "top1_share": 0.767
+  },
+  "opus-5.5 stripped|P4": {
+   "n": 30,
+   "distinct": 2,
+   "D": 1.16,
+   "top": [
+    [
+     "marginalia",
+     29
+    ],
+    [
+     "marginal",
+     1
+    ]
+   ],
+   "top1_share": 0.967
+  }
+ },
+ "verdicts": {
+  "H1|opus-5.5": [
+   "SUPPORTED",
+   "harness higher on ['P1', 'P2', 'P3', 'P4']; not higher on []"
+  ],
+  "H1|fable-5.2": [
+   "INCONCLUSIVE",
+   "harness higher on ['P1', 'P3']; not higher on ['P2', 'P4']"
+  ],
+  "H2|opus-5.5 harness": [
+   "SUPPORTED",
+   "D=2.73 vs null [13.75, 20.73], top [('wren', 21)]"
+  ],
+  "H2|opus-5.5 stripped": [
+   "SUPPORTED",
+   "D=1.34 vs null [13.75, 20.73], top [('nadia', 28)]"
+  ],
+  "H2|fable-5.2 harness": [
+   "SUPPORTED",
+   "D=9.39 vs null [13.75, 20.73], top [('hugo', 8)]"
+  ],
+  "H2|fable-5.2 stripped": [
+   "SUPPORTED",
+   "D=3.44 vs null [13.75, 20.73], top [('quinn', 17)]"
+  ],
+  "H3": [
+   "SUPPORTED",
+   "top-answer matches with Astra: [('opus-5.5 stripped', 'C', 'nadia')]"
+  ]
+ },
+ "perm_harness_vs_stripped": {
+  "opus-5.5|P1": [
+   7.08,
+   0.0697
+  ],
+  "opus-5.5|P2": [
+   15.13,
+   0.0003
+  ],
+  "opus-5.5|P3": [
+   9.53,
+   0.0032
+  ],
+  "opus-5.5|P4": [
+   5.13,
+   0.0001
+  ],
+  "opus-5.5|C": [
+   1.39,
+   0.0143
+  ],
+  "fable-5.2|P1": [
+   2.73,
+   0.1664
+  ],
+  "fable-5.2|P2": [
+   -8.13,
+   0.0027
+  ],
+  "fable-5.2|P3": [
+   0.2,
+   0.8694
+  ],
+  "fable-5.2|P4": [
+   -4.28,
+   0.0001
+  ],
+  "fable-5.2|C": [
+   5.95,
+   0.0002
+  ]
+ },
+ "keyword_counts_exploratory": {
+  "opus-5.5 harness": {
+   "beatrice": 0,
+   "clockwork": 21,
+   "nadia": 3,
+   "bellwether": 0
+  },
+  "opus-5.5 stripped": {
+   "beatrice": 0,
+   "clockwork": 21,
+   "nadia": 28,
+   "bellwether": 0
+  },
+  "fable-5.2 harness": {
+   "beatrice": 0,
+   "clockwork": 0,
+   "nadia": 3,
+   "bellwether": 0
+  },
+  "fable-5.2 stripped": {
+   "beatrice": 1,
+   "clockwork": 0,
+   "nadia": 6,
+   "bellwether": 0
+  },
+  "astra-6.2 api": {
+   "beatrice": 27,
+   "clockwork": 18,
+   "nadia": 21,
+   "bellwether": 0
+  },
+  "astra-6 api": {
+   "beatrice": 27,
+   "clockwork": 12,
+   "nadia": 22,
+   "bellwether": 0
+  }
+ }
+}

@@ -35,6 +35,34 @@ Effective number of answers D = exp(Shannon entropy). The maximum is 30.
 - "Bellwether" appeared in 0 of 300 outputs. This setup did not reproduce @emollick's observation,
   which came from a different prompt and the ChatGPT or Codex product, not a bare API call.
 
+## Part 2: Claude Opus 5.5 and Fable 5.2, bare and inside Claude Code (PREREGISTRATION-2.md)
+
+There were 600 calls through Claude Code CLI 2.1.318 on a subscription, with no errors. "Bare" is Claude Code with a
+one-line system prompt, no tools, no settings and no MCP. "Harness" is default Claude Code with the
+user's settings and skills.
+
+| Claim | Verdict | Number |
+|---|---|---|
+| H1 Opus: the harness gives more variety on 3 or more of 4 open prompts | SUPPORTED | Higher on all 4; permutation p = 0.07, 0.0003, 0.003, 0.0001 |
+| H1 Fable | INCONCLUSIVE | Higher on spy and station, lower on detective (p = 0.003) and startup (p = 0.0001) |
+| H2 No Claude arm can pick at random | SUPPORTED, all 4 | Opus bare picked Nadia 28 of 30 times. In Claude Code it picked Wren 21 of 30. Fable in Claude Code came closest (D = 9.4) and is still below random (13.8 to 20.7) |
+| H3 A Claude top answer equals an Astra top answer | SUPPORTED | Nadia, top pick of Opus bare and of both Astra versions |
+
+| Arm | Spy | Detective | Station | Startup | Random pick |
+|---|---|---|---|---|---|
+| Opus 5.5 in Claude Code | 14.7 | 25.7 | 12.1 | 6.3 (marginalia 13) | 2.7 (wren 21) |
+| Opus 5.5 bare | 7.7 | 10.5 | 2.6 (meridian hollow 23) | 1.2 (marginalia 29) | 1.3 (nadia 28) |
+| Fable 5.2 in Claude Code | 5.6 | 4.6 | 4.6 | 1.0 (marginalia 30) | 9.4 |
+| Fable 5.2 bare | 2.9 (orient express 21) | 12.7 | 4.4 | 5.3 | 3.4 (quinn 17) |
+
+Exploratory: "clockwork" appears in 21 of 30 Opus spy settings in both arms, and in 18 of 30 for 6.2
+Astra ("clockwork embassy" is a top answer at both companies). "Bellwether" appears 0 times in all 900
+outputs. The harness changes WHICH answer comes back (Nadia to Wren) more than it makes a pick random.
+
+Subscription usage reported by the CLI: $23.65 notional for the 600 calls (not billed on a plan
+without extra usage). Three parallel workers broke prompt-cache reuse more than the pilot
+predicted.
+
 ## Errors and limits
 
 - **Method error in the preregistered analysis:** the bootstrap interval for D is biased low.
